@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "862954971708",
+    "firebase_url": "https://carbnzero.firebaseio.com",
+    "project_id": "carbnzero",
+    "storage_bucket": "carbnzero.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862954971708:android:a78c756b4bb45cb6255939",
+        "android_client_info": {
+          "package_name": "com.example.carbnzero"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862954971708-8fg9pp01bbkr3vi80r0dlaku6nb464ud.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.carbnzero",
+            "certificate_hash": "e71d8bb7200df51b577aacacad745d265b308e6d"
+          }
+        },
+        {
+          "client_id": "862954971708-moru216jdus9jai6iqpepa545hj3uqhm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUlVJ2SJRfVnoGnVJO21roWPbkcuExM2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862954971708-moru216jdus9jai6iqpepa545hj3uqhm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

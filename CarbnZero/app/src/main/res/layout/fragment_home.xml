@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/my_bg_anim">
+
+    <pl.pawelkleczkowski.customgauge.CustomGauge
+        android:id="@+id/gauge2"
+        android:layout_width="280dp"
+        android:layout_height="310dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginRight="63dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        app:gaugeEndValue="800"
+        app:gaugePointEndColor="#29D132"
+        app:gaugePointStartColor="#4FBAE7"
+        app:gaugeStartAngle="135"
+        app:gaugeStartValue="200"
+        app:gaugeStrokeCap="ROUND"
+        app:gaugeStrokeColor="#114153"
+        app:gaugeStrokeWidth="10dp"
+        app:gaugeSweepAngle="270" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/gauge2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:text="0/1000"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

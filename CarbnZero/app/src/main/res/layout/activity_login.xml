@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/my_bg_anim"
+    android:id="@+id/myLayout"
+    tools:context=".LoginActivity">
+
+    <Button
+        android:id="@+id/begin"
+        android:background="@drawable/btn"
+        android:text="Begin"
+        android:textAllCaps="false"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf = "parent"
+        app:layout_constraintBottom_toBottomOf = "parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="80dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+
+
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="293dp"
+        android:layout_height="291dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/logo_transparent"
+        tools:layout_editor_absoluteY="69dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
